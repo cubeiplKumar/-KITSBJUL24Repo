@@ -20,6 +20,22 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+
+	#feature202 by Ethan for Reports Module in Oct2023
+	// A subclass of Animal
+public class Dog extends Animal {
+
+    // Public method to access protected members
+    public void displayInfo() {
+        // Accessing the protected field from the superclass
+        System.out.println("Species: " + species);
+
+        // Calling the protected method from the superclass
+        makeSound();
+    }
+}
+#end feature202
+
 	#feature201 changes by Vivek on Payment Gateway Module Oct2023
 	// A class with protected access specifier
 public class Animal {
@@ -33,4 +49,5 @@ public class Animal {
     }
 }
 #feature201 changes end
+
 }
