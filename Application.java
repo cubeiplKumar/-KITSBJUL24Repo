@@ -20,6 +20,7 @@ public class MyClass {
         // Calling the public method
         myObject.publicMethod();
     }
+
 	#feature202 by Ethan for Reports Module in Oct2023
 	// A subclass of Animal
 public class Dog extends Animal {
@@ -34,4 +35,19 @@ public class Dog extends Animal {
     }
 }
 #end feature202
+
+	#feature201 changes by Vivek on Payment Gateway Module Oct2023
+	// A class with protected access specifier
+public class Animal {
+    
+    // Protected field
+    protected String species = "Unknown"; // Initialize with a default value
+
+    // Protected method
+    protected void makeSound() {
+        System.out.println("Some generic animal sound");
+    }
+}
+#feature201 changes end
+
 }
